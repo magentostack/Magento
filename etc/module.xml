@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Kensium_Core
+ *
+ * @category: PHP
+ * @package: Kensium/Core
+ * @copyright: Copyright © 2019 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ * @license: Magento Enterprise Edition (MEE) license
+ * @author: Dharmendra.Kothe <dharmendrak@kensium.com>
+ * @project: VP Supply
+ * @keywords:  kensium Core Registration
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Kensium_Core" setup_version="1.0.3">
+        <sequence>
+            <module name="Magento_Sales"/>
+        </sequence>
+    </module>
+</config>

@@ -1,0 +1,26 @@
+{
+    "name": "kensium/core",
+    "description": "Kensium core configuration setting",
+    "require": {
+        "php": "~7.1.3||~7.2.0||~7.3.0",
+        "magento/module-config": "101.0.*",
+        "magento/module-store": "100.2.*",
+        "magento/module-customer": "101.0.*",
+        "magento/module-cms": "102.0.*",
+        "magento/framework": "101.0.*"
+    },
+    "version": "100.2.2",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Kensium\\Core\\": ""
+        }
+    }
+}

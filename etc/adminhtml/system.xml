@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Kensium_Core
+ *
+ * @category: PHP
+ * @package: Kensium/Core
+ * @copyright: Copyright © 2019 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ * @license: Magento Enterprise Edition (MEE) license
+ * @author: Dharmendra.Kothe <dharmendrak@kensium.com>
+ * @project: VP Supply
+ * @keywords:  Admin Custom Menu
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="kensium" translate="label" sortOrder="1000">
+            <label>Kensium</label>
+        </tab>
+    </system>
+</config>

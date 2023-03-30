@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Kensium_Core
+ *
+ * @category: PHP
+ * @package: Kensium/Core
+ * @copyright: Copyright © 2019 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ * @license: Magento Enterprise Edition (MEE) license
+ * @author: Dharmendra.Kothe <dharmendrak@kensium.com>
+ * @project: VP Supply
+ * @keywords:  Admin Custom Menu
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Kensium_Core::core" title="KENSIUM" translate="title" module="Kensium_Core"
+             sortOrder="10" dependsOnModule="Kensium_Core" resource="Kensium_Core::core"/>
+        <!-- Custom Integration Menu -->
+        <add id="Kensium_Core::custom" title="Custom Integration"
+             sortOrder="2"
+             module="Kensium_Core"
+             resource="Kensium_Core::custom"
+             parent="Kensium_Core::core"/>
+
+        <!-- Shims ERP INTEGRATION -->
+        <add id="Kensium_Core::erpconector" title="ERP Connector"
+             sortOrder="1"
+             module="Kensium_Core"
+             resource="Kensium_Core::erpconector"
+             parent="Kensium_Core::core"/>
+    </menu>
+</config>
