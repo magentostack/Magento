@@ -18,7 +18,7 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Kensium_Core::core" title="Kensium Core Configurations" sortOrder="20"/>
+                <resource id="Kensium_Core::core" title="Kensium Coreeeee Configurations" sortOrder="20"/>
             </resource>
         </resources>
     </acl>
